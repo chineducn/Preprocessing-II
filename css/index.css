@@ -212,11 +212,6 @@ img {
   color: #212529;
   font-size: 1.6rem;
 }
-@media (max-width: 500px) {
-  .navigation nav a {
-    color: red;
-  }
-}
 .footer {
   width: 100%;
   border-top: 2px dashed silver;
