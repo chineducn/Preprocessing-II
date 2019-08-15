@@ -194,6 +194,12 @@ img {
   .navigation {
     display: block;
     width: 100%;
+    padding: 0;
+  }
+}
+@media (max-width: 500px) {
+  .navigation .navigation-content {
+    margin: 10px 0;
   }
 }
 @media (max-width: 500px) {
