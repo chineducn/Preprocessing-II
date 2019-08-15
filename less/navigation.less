@@ -5,15 +5,30 @@
     padding: 1% 20%;
     border-bottom: 2px dashed @navigation-border;
 
+    @media @mobile {
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;        
+    }
+
     nav {
         display: flex;
         justify-content: space-evenly;
         width: 50%;
 
+        @media @mobile {
+            width: 100%
+        }
+
         a {
             text-decoration: none;
             color: @shark;
             font-size: 1.6rem;
+            
+            @media @mobile {
+                color: red;
+                
+            }
         }
     }    
 }
