@@ -23,6 +23,10 @@
     .text-content {
       width        : 48%;
       padding-right: 1%;
+
+      @media @mobile {
+        width: 100%;
+      }
     }
 
     .img-content {
@@ -31,6 +35,10 @@
 
       img {
         border-radius: 10px;
+      }
+
+      @media @mobile {
+        width: 100%;        
       }
     }
   }
@@ -48,6 +56,11 @@
       padding-right: 1%;
       padding-left : 0;
     }
+
+    @media @mobile {
+      display: flex;
+      flex-direction: column-reverse;
+    }
   }
 
   .content-destination {
@@ -56,6 +69,10 @@
 
     img {
       border-radius: 10px;
+    }
+
+    @media @mobile {
+      width: 100%;
     }
   }
 
