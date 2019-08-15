@@ -192,9 +192,13 @@ img {
 }
 @media (max-width: 500px) {
   .navigation {
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    display: block;
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .navigation h1 {
+    text-align: center;
   }
 }
 .navigation nav {
