@@ -235,6 +235,11 @@ img {
   flex-wrap: wrap;
   justify-content: space-between;
 }
+@media (max-width: 500px) {
+  .home .content-section {
+    flex-direction: column;
+  }
+}
 .home .content-section .text-content {
   width: 48%;
   padding-right: 1%;
@@ -282,7 +287,7 @@ img {
 }
 @media (max-width: 500px) {
   .home .content-pick .destination {
-    width: 80%;
+    width: 90%;
     margin: 0 auto;
     padding: 10px;
   }
