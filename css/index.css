@@ -257,8 +257,14 @@ img {
   border-radius: 10px;
 }
 @media (max-width: 500px) {
+  .home .content-section .img-content img {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
   .home .content-section .img-content {
     width: 100%;
+    padding-left: 0%;
   }
 }
 .home .inverse-content {
@@ -285,6 +291,11 @@ img {
 }
 .home .content-destination img {
   border-radius: 10px;
+}
+@media (max-width: 500px) {
+  .home .content-destination img {
+    width: 100%;
+  }
 }
 @media (max-width: 500px) {
   .home .content-destination {
