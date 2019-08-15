@@ -210,6 +210,7 @@ img {
 .navigation nav {
   display: flex;
   justify-content: space-evenly;
+  margin-top: 15px;
   width: 50%;
 }
 @media (max-width: 500px) {
