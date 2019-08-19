@@ -1,1 +1,18 @@
 // Mixins in here
+
+.button-Style(@buttonColor, @buttonWidth, @buttonFont) {
+        background-color: @buttonColor;
+        border-radius   : 10px;
+        width           : @buttonWidth;
+        height          : 40px;
+        font-size       : @buttonFont;
+        color           : @white;
+        text-align      : center;
+        padding         : 10px 0px;
+        cursor          : pointer;
+
+}
+
+.btn {
+    .button-Style(darken(@button-bg,13%), 83%, 2rem);
+}
